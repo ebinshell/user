@@ -12,7 +12,7 @@
         <div v-if="errors.name" class="error">{{ errors.name }}</div>
 
         <label>
-          Email
+          Emaill
           <input v-model="email" type="email" placeholder="Enter email" @input="clearEmailError"/>
         </label>
         <div v-if="errors.email" class="error">{{ errors.email }}</div>
